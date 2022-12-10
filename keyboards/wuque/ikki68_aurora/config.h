@@ -61,3 +61,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_EFFECT_ALTERNATING
 #define RGBLIGHT_EFFECT_TWINKLE
 #endif
+
+/*How long before a tap becomes a hold (ms)*/
+#define TAPPING_TERM 0
+#define RETRO_TAPPING
+#define PERMISSIVE_HOLD
+
+/*For backlight layer lighting*/
+#define RGBLIGHT_LAYERS
+#define RGBLIGHT_LAYERS_OVERRIDE_RGB_OFF
+
+#define FORCE_NKRO
